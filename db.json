@@ -1,0 +1,147 @@
+{
+  "usuarios": {
+    "byId": {
+      "FEMOON908": {
+        "id": "FEMOON908",
+        "nombre": "Lucía",
+        "apellido": "Fernández",
+        "area": "IT",
+        "cargo": "Frontend Developer",
+        "sueldo": 65000,
+        "sede": "Sede Central"
+      },
+      "GAMOON524": {
+        "id": "GAMOON524",
+        "nombre": "Martín",
+        "apellido": "García",
+        "area": "Finanzas",
+        "cargo": "Contador",
+        "sueldo": 58000,
+        "sede": "Sede Sur"
+      },
+      "LOMOON366": {
+        "id": "LOMOON366",
+        "nombre": "Sofía",
+        "apellido": "López",
+        "area": "Marketing",
+        "cargo": "Community Manager",
+        "sueldo": 47000,
+        "sede": "Sede Norte"
+      },
+      "MAMOON859": {
+        "id": "MAMOON859",
+        "nombre": "Diego",
+        "apellido": "Martínez",
+        "area": "Ventas",
+        "cargo": "Ejecutivo Comercial",
+        "sueldo": 52000,
+        "sede": "Sede Oeste"
+      },
+      "PEMOON954": {
+        "id": "PEMOON954",
+        "nombre": "Julián",
+        "apellido": "Pérez",
+        "area": "IT",
+        "cargo": "Backend Developer",
+        "sueldo": 70000,
+        "sede": "Sede Central"
+      },
+      "RAMOON467": {
+        "id": "RAMOON467",
+        "nombre": "Camila",
+        "apellido": "Ramírez",
+        "area": "Diseño",
+        "cargo": "UX/UI Designer",
+        "sueldo": 49000,
+        "sede": "Sede Norte"
+      },
+      "TOMOON425": {
+        "id": "TOMOON425",
+        "nombre": "Andrés",
+        "apellido": "Torres",
+        "area": "Logística",
+        "cargo": "Supervisor",
+        "sueldo": 53000,
+        "sede": "Sede Sur"
+      },
+      "GOMOON374": {
+        "id": "GOMOON374",
+        "nombre": "Paula",
+        "apellido": "Gómez",
+        "area": "Legal",
+        "cargo": "Asesora Legal",
+        "sueldo": 68000,
+        "sede": "Sede Central"
+      },
+      "RUMOON664": {
+        "id": "RUMOON664",
+        "nombre": "Nicolás",
+        "apellido": "Ruiz",
+        "area": "Soporte",
+        "cargo": "Soporte Técnico",
+        "sueldo": 45000,
+        "sede": "Sede Oeste"
+      }
+    },
+    "allIds": [
+      "FEMOON908",
+      "GAMOON524",
+      "LOMOON366",
+      "MAMOON859",
+      "PEMOON954",
+      "RAMOON467",
+      "TOMOON425",
+      "GOMOON374",
+      "RUMOON664"
+    ]
+  },
+  "funciones": {
+    "byId": {},
+    "allIds": [],
+    "byUsuario": {}
+  },
+  "eventos": {
+    "byId": {
+      "MOOX78FE": {
+        "id": "MOOX78FE",
+        "usuarioId": "FEMOON908",
+        "titulo": "El evento se ha cancelado Reunión para definir perfiles",
+        "descripcion": "Se suspende el evento indicado como: Reunión para definir perfiles",
+        "fecha": "02-05-2026",
+        "participantes": [
+          "FEMOON908",
+          "RAMOON467",
+          "GAMOON524"
+        ]
+      },
+      "MOOX392LO": {
+        "id": "MOOX392LO",
+        "usuarioId": "LOMOON366",
+        "titulo": "El evento se ha cancelado Campaña para nuevos colaboradores",
+        "descripcion": "Se suspende el evento indicado como: Campaña para nuevos colaboradores",
+        "fecha": "02-05-2026",
+        "participantes": [
+          "LOMOON366"
+        ]
+      }
+    },
+    "allIds": [
+      "MOOX78FE",
+      "MOOX392LO"
+    ],
+    "byUsuario": {
+      "FEMOON908": [
+        "MOOX78FE"
+      ],
+      "LOMOON366": [
+        "MOOX392LO"
+      ],
+      "RAMOON467": [
+        "MOOX78FE"
+      ],
+      "GAMOON524": [
+        "MOOX78FE"
+      ]
+    }
+  }
+}
